@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>YouTube Clone</h1>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button>Search</button>
+        </div>
+    </header>
+
+    <div class="video-player">
+        <iframe id="video-frame" width="800" height="450" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-gallery">
+        <div class="video-item" data-video-id="dQw4w9WgXcQ">
+            <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg" alt="Video thumbnail">
+            <div class="video-info">
+                <h3>Rick Astley - Never Gonna Give You Up</h3>
+                <p>Published on Oct 25, 2009</p>
+            </div>
+        </div>
+        <div class="video-item" data-video-id="kJQP7kiw5Fk">
+            <img src="https://img.youtube.com/vi/kJQP7kiw5Fk/0.jpg" alt="Video thumbnail">
+            <div class="video-info">
+                <h3>Luis Fonsi - Despacito ft. Daddy Yankee</h3>
+                <p>Published on Jan 12, 2017</p>
+            </div>
+        </div>
+        <!-- Add more video items here -->
+    </div>
+
+    <footer>
+        <p>&copy; 2025 YouTube Clone</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
